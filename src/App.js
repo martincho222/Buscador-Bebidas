@@ -17,7 +17,7 @@ function App() {
       <RecetasProvider>
         <ModalProvider>
           <Header />
-          <div className="container mt-5">
+          <div className="container mt-5 background-lista">
             <div className="row">
               <Formulario />
             </div>

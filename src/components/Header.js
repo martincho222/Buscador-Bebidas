@@ -2,7 +2,7 @@ import React from 'react'
 
 const Header = () => {
     return ( 
-        <header className="bg-alert">
+        <header>
             <h1>Busca Recetas de Bebidas</h1>
         </header>
      );

@@ -60,7 +60,11 @@ const Receta = ({ receta }) => {
 
                         </Modal.Body>
                         <Modal.Footer>
-                            <Button variant="secondary" onClick={handleClose}>
+                            <Button 
+                                variant="secondary" 
+                                onClick={handleClose}
+                                className="btn btn-primary"
+                            >
                                 Close
                             </Button>
                         </Modal.Footer>
